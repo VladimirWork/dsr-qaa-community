@@ -16,20 +16,20 @@ This is DSR QAA Community github repository for docs and practical tasks.
 
 ## Workflow
 
-1. Fork this repository.
+- Fork this repository.
 
-2. Clone your forked repository to your local machine.
+- Clone your forked repository to your local machine.
 
-3. Set this repository as upstream on your local machine.
+- Set this repository as upstream on your local machine.
 
-4. Make branch depending on exercise.
+- Make branch depending on exercise.
 
-4. Go to /practice/<%FOLDERNAME%/ depending on exercise.
+- Go to /practice/<%FOLDERNAME%>/ depending on exercise.
 
-5. Make sub folder with your name.
+- Make sub folder with your name.
 
-6. Perform exercise in your sub folder.
+- Perform exercise in your sub folder.
 
-7. Commit changes and push them to origin.
+- Commit changes and push them to origin.
 
-8. Send PR from origin/<%BRANCHNAME%> to upstream/master.
+- Send PR from origin/<%BRANCHNAME%> to upstream/master.
