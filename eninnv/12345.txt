@@ -1,0 +1,20 @@
+- Workflow
+Fork this repository.
+Clone your forked repository to your local machine.
+Set this repository as upstream on your local machine.
+Make branch depending on exercise.
+Go to /practice/<%FOLDERNAME%>/ depending on exercise.
+Make sub folder with your name.
+Perform exercise in your sub folder.
+Commit changes and push them to origin.
+Send PR from origin/<%BRANCHNAME%> to upstream/master.
+
+- Task:
+5. Fork QAA Community repository.
+6. Clone it to your local machine.
+7. Create branch `test` and switch to it.
+8. Make some changes in `git` subfolder (e.g. create text file), commit and push them to your fork.
+9. Create pull request to main repository to master branch.
+
+
+Why are not equivalents?
