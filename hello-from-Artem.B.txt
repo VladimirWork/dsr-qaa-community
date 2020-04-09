@@ -1,0 +1,5 @@
+Hi, all!
+
+This is my first commit! Let's learn git:)
+
+See you.
