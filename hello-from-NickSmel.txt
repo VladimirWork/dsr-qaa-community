@@ -1,0 +1,12 @@
+using System;
+
+namespace Hello
+{
+	class HelloWorld
+	{
+		static void HelloQAA()
+		{
+			Console.WriteLine("Hello World!");
+		}
+	}
+}
