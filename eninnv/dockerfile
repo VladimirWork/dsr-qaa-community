@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 FROM php:7.2-cli
 COPY cli.php /cli.php
 RUN chmod +x /cli.php
+=======
+FROM php:7.2-cli
+COPY cli.php /cli.php
+RUN chmod +x /cli.php
+>>>>>>> b270548f4f7cc53a80f86ee3b4c127a00e3f2e0c
 CMD php /cli.php
