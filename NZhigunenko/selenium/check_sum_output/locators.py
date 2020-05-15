@@ -1,4 +1,4 @@
-# Provide correct locators in order to make the script work:
+# Provide correct locators:
 sum_page = {
     "input_a_id": "sum1",
     "input_b_id": "sum2",
