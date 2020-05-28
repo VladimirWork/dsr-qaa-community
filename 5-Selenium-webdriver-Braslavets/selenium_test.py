@@ -2,7 +2,9 @@ from selenium import webdriver
 import csv
 import locators
 from lib import *
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 
 def check_output(local_driver, value_a, value_b, output):
     input_clear_and_type(local_driver, locators.sum_page["input_a_id"], value_a)
@@ -27,6 +29,8 @@ def main():
         print(driver.title)
         assert 'Selenium' in driver.title
         with open('data.csv') as data_csv:
+            WebDriverWait(driver, 5).until(
+                EC.element_to_be_clickable((By.XPATH, locators.sum_page["close_button_xpath"]))).click()
             reader = csv.reader(data_csv)
             headers = next(reader, None)
             for row in reader:
