@@ -1,0 +1,5 @@
+a,b,outcome
+1,1,2
+0,-1,-1
+a,b,NaN
+1,3,NaN
